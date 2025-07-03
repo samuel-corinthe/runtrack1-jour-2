@@ -1,0 +1,36 @@
+:root {
+  /* Couleurs principales */
+  --primary-color: rgb(172, 208, 208);
+  --secondary-color: rgb(71, 66, 66);
+
+  /*Typographie*/
+
+  --font-family: "Outfit", sans-serif;
+}
+
+html {
+  background: var(--primary-color);
+  font-family: var(--font-family);
+}
+.categorie {
+  border-radius: 50px;
+  background: var(--primary-color);
+  border-color: var(--secondary-color);
+}
+
+h1 {
+  text-align: center;
+}
+.image {
+  width: 20px;
+  height: 20px;
+  border-spacing: 3px;
+  padding-right: 5px;
+  padding-right: 5px;
+}
+
+.bloc {
+  display: flex;
+  align-items: center;
+  justify-items: start;
+}
